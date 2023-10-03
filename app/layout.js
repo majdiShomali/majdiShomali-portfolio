@@ -11,7 +11,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>{children}
+      <script src="https://infotointell.fra1.digitaloceanspaces.com/Bots/majdiShomali-734/newWebchat.js"></script> 
+      </body>
     </html>
   )
 }
