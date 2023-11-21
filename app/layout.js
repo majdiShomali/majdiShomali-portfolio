@@ -1,6 +1,6 @@
 import './globals.css'
 import { Inter } from 'next/font/google'
-
+import { StickyNavbar } from './components/StickyNavbar'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
@@ -11,8 +11,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      {/* <StickyNavbar/> */}
       <body className={inter.className}>{children}
-      <script src="https://infotointell.fra1.digitaloceanspaces.com/Bots/majdiShomali-734/newWebchat.js"></script> 
+      <script src="https://infotointell.fra1.digitaloceanspaces.com/Bots/majdi97-11/newWebchat.js"></script> 
+      {/* <script src="https://infotointell.fra1.digitaloceanspaces.com/Bots/majdiShomali-734/newWebchat.js"></script>  */}
       </body>
     </html>
   )
