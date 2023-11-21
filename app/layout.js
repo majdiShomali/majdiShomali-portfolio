@@ -13,8 +13,8 @@ export default function RootLayout({ children }) {
     <html lang="en">
       {/* <StickyNavbar/> */}
       <body className={inter.className}>{children}
-      <script src="https://infotointell.fra1.digitaloceanspaces.com/Bots/majdi97-11/newWebchat.js"></script> 
-      {/* <script src="https://infotointell.fra1.digitaloceanspaces.com/Bots/majdiShomali-734/newWebchat.js"></script>  */}
+      {/* <script src="https://infotointell.fra1.digitaloceanspaces.com/Bots/majdi97-11/newWebchat.js"></script>  */}
+      <script src="https://infotointell.fra1.digitaloceanspaces.com/Bots/majdiShomali-734/newWebchat.js"></script> 
       </body>
     </html>
   )
